@@ -42,64 +42,73 @@ function Work() {
   ]);
 
   const { scrollYProgress } = useScroll();
-  
+
   // useMotionValueEvent(scrollYProgress, "change", (latest) => {
   //   scrollNHideImages(Math.floor(latest*100));
   // });
 
-  
   scrollYProgress.on("change", (data) => {
     function showImages(arr) {
-      setImages(prev => (
-        prev.map((item, index) => (
-          arr.indexOf(index) === -1 ? (
-            {...item, isActive: false}
-          ) : {...item, isActive: true}
-        ))
-      ))
+      setImages((prev) =>
+        prev.map((item, index) =>
+          arr.indexOf(index) === -1
+            ? { ...item, isActive: false }
+            : { ...item, isActive: true }
+        )
+      );
     }
-  
 
-   switch(Math.floor(data * 100)){
-    case 0:
-      showImages([]);
-      break;
-    case 2:
-      showImages([0]);
-      break;
-    case 3:
-      showImages([0,1]);
-      break;
-    case 4:
-      showImages([0,1,2]);
-      break;
-    case 5:
-      showImages([0,1,2,3]);
-      break;
-    case 6:
-      showImages([0,1,2,3,4]);
-      break;
-    case 7:
-      showImages([0,1,2,3,4,5]);
-      break;
-   }
+    switch (Math.floor(data * 100)) {
+      case 0:
+        showImages([]);
+        break;
+      case 2:
+        showImages([0]);
+        break;
+      case 3:
+        showImages([0, 1]);
+        break;
+      case 4:
+        showImages([0, 1, 2]);
+        break;
+      case 5:
+        showImages([0, 1, 2, 3]);
+        break;
+      case 6:
+        showImages([0, 1, 2, 3, 4]);
+        break;
+      case 7:
+        showImages([0, 1, 2, 3, 4, 5]);
+        break;
+    }
   });
 
-
   return (
-    <div className="w-full relative">
-      <div className="max-w-screen-xl mx-auto text-center">
-        <h1 className="text-[37vw] leading-none font-medium select-none tracking-tight">
-          work
-        </h1>
+    <div className="relative w-full h-[70vh] md:h-auto">
+      <div className="md:mx-auto md:text-center md:max-w-screen-xl md:mx-auto md:block flex h-full w-full">
+        <div className="md:w-auto w-1/3 relative overflow-hidden">
+          <h1 className="text-[45vw] leading-none font-medium select-none tracking-tight md:text-[37vw] leading-none font-medium select-none tracking-tight -rotate-90 md:rotate-0 mt-[35vh] md:mt-0">
+            work
+          </h1>
+        </div>
+        <div className="md:hidden block w-1/3 relative overflow-hidden">
+          <h1 className="text-[45vw] leading-none font-medium select-none tracking-tight leading-none font-medium select-none tracking-tight -rotate-90 mt-[35vh]">
+            work
+          </h1>
+          </div>
+          <div className="md:hidden block w-1/3 relative overflow-hidden">
+          <h1 className="text-[45vw] leading-none font-medium select-none tracking-tight leading-none font-medium select-none tracking-tight -rotate-90 mt-[35vh]">
+            work
+          </h1>
+        </div>
       </div>
-      <div className="absolute top-0 w-full h-full">
+      <div className="absolute top-0 w-full h-full md:absolute md:top-0 md:w-full md:h-full">
         {images.map(
           (elem, index) =>
             elem.isActive && (
               <img
                 key={index}
-                className="w-60 rounded-lg absolute -translate-x-[50%] -translate-y-[50%]"
+                className="w-44 rounded-lg absolute -translate-x-[50%] -translate-y-[50%] md:w-60 md:rounded-lg md:absolute md:-translate-x-[50%] md:-translate-y-[50%]"
                 src={elem.url}
                 alt=""
                 style={{ top: elem.top, left: elem.left }}

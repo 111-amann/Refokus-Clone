@@ -1,6 +1,6 @@
 import React from "react";
 import Marquee from "./Marquee";
-function Marquees() {
+function Marquees() { 
   var images = [
     [
       "https://assets-global.website-files.com/6334198f239547d0f9cd84b3/65b2d275e12177716cb3f2ea_basf.svg",
@@ -28,7 +28,7 @@ function Marquees() {
   ];
 
   return (
-    <div className="py-10 my-32 w-full relative overflow-hidden">
+    <div className="md:py-10 md:my-32 md:w-full relative overflow-hidden mt-10 mb-10">
       {images.map((elem, index) => (
         <Marquee imagesurl={elem} key={index} direction={index === 0 ? "left" : "right"} />
       ))}

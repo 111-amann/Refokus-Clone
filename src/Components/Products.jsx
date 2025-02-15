@@ -13,6 +13,8 @@ function Products() {
       bgImg:
         "https://web.archive.org/web/20240216094842im_/https://assets-global.website-files.com/6334198f239547f2fccd84c1/650c621a3aa0ee3ae147d692_arqitel-bg-p-2000.webp",
       vid: "https://cdn.refokus.com/website/Arqitel/Arqitel%20project%20video%204_3.webm",
+      caseImg:
+        "https://web.archive.org/web/20240216094842im_/https://assets-global.website-files.com/6334198f239547f2fccd84c1/650c5f15978b05dc7f2ae554_14.webp",
     },
     {
       title: "Cula",
@@ -23,6 +25,8 @@ function Products() {
       bgImg:
         "https://web.archive.org/web/20240216094842im_/https://assets-global.website-files.com/6334198f239547f2fccd84c1/65b41319bda140bccae204ae_bg%202.png",
       vid: "https://cdn.refokus.com/website/Cula_promo_new_4_3.mp4",
+      caseImg:
+        "https://web.archive.org/web/20240216094842im_/https://assets-global.website-files.com/6334198f239547f2fccd84c1/65b41324914b470b20ec7d03_Frame%203.png",
     },
     {
       title: "TTR",
@@ -33,6 +37,8 @@ function Products() {
       bgImg:
         "https://web.archive.org/web/20240216094842im_/https://assets-global.website-files.com/6334198f239547f2fccd84c1/63ede953b6b5f3582560753a_Work%20Background-p-2000.jpg",
       vid: "https://cdn.refokus.com/website/TTR/TTR%20project%20video%204_3_H.264.webm",
+      caseImg:
+        "https://web.archive.org/web/20240216094842im_/https://assets-global.website-files.com/6334198f239547f2fccd84c1/64cd6ecc885579ba1b4ffc97_10.jpg",
     },
     {
       title: "Maniv",
@@ -43,6 +49,8 @@ function Products() {
       bgImg:
         "https://web.archive.org/web/20240216094842im_/https://assets-global.website-files.com/6334198f239547f2fccd84c1/65b2ccf5af18668cfbd3a8d6_bg%201-p-1600.png",
       vid: "https://cdn.refokus.com/website/Maniv-Compressed.mp4",
+      caseImg:
+        "https://web.archive.org/web/20240216094842im_/https://assets-global.website-files.com/6334198f239547f2fccd84c1/65b2cab86e8df24e528c4441_Frame%201.png",
     },
     {
       title: "YIR 2022",
@@ -53,6 +61,8 @@ function Products() {
       bgImg:
         "https://web.archive.org/web/20240216094842im_/https://assets-global.website-files.com/6334198f239547f2fccd84c1/6450586e80fac7eb1655014f_yir2022%E2%80%93bg-p-2000.png",
       vid: "https://cdn.refokus.com/website/YIR%20website%202022%204_3_VP9.webm",
+      caseImg:
+        "https://web.archive.org/web/20240216094842im_/https://assets-global.website-files.com/6334198f239547f2fccd84c1/65b41cfab581d98facecc35d_YIR2022%20-%20mobile.png",
     },
     {
       title: "Yahoo!",
@@ -63,6 +73,8 @@ function Products() {
       bgImg:
         "https://web.archive.org/web/20240216094842im_/https://assets-global.website-files.com/6334198f239547f2fccd84c1/635299cbb5dc5fd8b2972010_Yahoo%20bg.png",
       vid: "https://cdn.refokus.com/website/2022/videos/yahoo.webm",
+      caseImg:
+        "https://web.archive.org/web/20240216094842im_/https://assets-global.website-files.com/6334198f239547f2fccd84c1/65b41cd5ec5fbe7d560d053f_Yahoo%20-%20mobile.png",
     },
     {
       title: "Rainfall",
@@ -73,6 +85,8 @@ function Products() {
       bgImg:
         "https://web.archive.org/web/20240216094842im_/https://assets-global.website-files.com/6334198f239547f2fccd84c1/635299ec9a478d08095a0122_Rainfall%20bg-p-1600.png",
       vid: "https://cdn.refokus.com/website/Arqitel/Arqitel%20project%20video%204_3.webm",
+      caseImg:
+        "https://web.archive.org/web/20240216094842im_/https://assets-global.website-files.com/6334198f239547f2fccd84c1/64cc2f1683a983fb66bd96c4_8.jpg",
     },
     {
       title: "Jungle",
@@ -83,6 +97,8 @@ function Products() {
       bgImg:
         "https://web.archive.org/web/20240216094842im_/https://assets-global.website-files.com/6334198f239547f2fccd84c1/63ede953b6b5f3582560753a_Work%20Background-p-2000.jpg",
       vid: "https://cdn.refokus.com/website/Cula_promo_new_4_3.mp4",
+      caseImg:
+        "https://web.archive.org/web/20240216094842im_/https://assets-global.website-files.com/6334198f239547f2fccd84c1/64cc2e2943eeaaaf5d8961a7_6.jpg",
     },
     {
       title: "Silvr",
@@ -93,6 +109,8 @@ function Products() {
       bgImg:
         "https://web.archive.org/web/20240216094842im_/https://assets-global.website-files.com/6334198f239547f2fccd84c1/65b41319bda140bccae204ae_bg%202.png",
       vid: "https://cdn.refokus.com/website/TTR/TTR%20project%20video%204_3_H.264.webm",
+      caseImg:
+        "https://web.archive.org/web/20240216094842im_/https://assets-global.website-files.com/6334198f239547f2fccd84c1/64cc29f66c6594c072ba1a38_02.jpg",
     },
     {
       title: "Remind",
@@ -103,6 +121,8 @@ function Products() {
       bgImg:
         "https://web.archive.org/web/20240216094842im_/https://assets-global.website-files.com/6334198f239547f2fccd84c1/63529a2191211c3ebc67e4b7_Remind%20bg-p-1600.png",
       vid: "https://cdn.refokus.com/website/Maniv-Compressed.mp4",
+      caseImg:
+        "https://web.archive.org/web/20240216094842im_/https://assets-global.website-files.com/6334198f239547f2fccd84c1/64cc2cad43eeaaaf5d87b274_4.jpg",
     },
   ];
 
@@ -112,12 +132,12 @@ function Products() {
   };
 
   return (
-    <div className="mt-32 relative">
+    <div className="mt-32 relative md:p-0 p-3">
       {products.map((elem, index) => (
         <Product val={elem} mover={mover} key={index} count={index} />
       ))}
 
-      <div className="w-full h-full absolute top-0 pointer-events-none">
+      <div className="w-full h-full md:absolute hidden top-0 pointer-events-none">
         <motion.div
           initial={{ y: pos }}
           animate={{ y: pos + "rem" }}
