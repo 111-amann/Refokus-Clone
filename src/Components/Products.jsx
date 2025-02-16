@@ -137,7 +137,7 @@ function Products() {
         <Product val={elem} mover={mover} key={index} count={index} />
       ))}
 
-      <div className="w-full h-full md:absolute hidden top-0 pointer-events-none">
+      <div className="w-full h-full md:absolute md:block hidden top-0 pointer-events-none">
         <motion.div
           initial={{ y: pos }}
           animate={{ y: pos + "rem" }}
