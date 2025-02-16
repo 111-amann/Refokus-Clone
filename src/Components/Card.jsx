@@ -20,7 +20,7 @@ function Card({ data, hover }) {
       <div className="down w-full">
         {data.start && (
           <>
-            <h1 className="md:text-8xl font-semibold md:mt-24 text-6xl mb-8 md:mb-0 tracking-tight leading-none">
+            <h1 className="lg:text-8xl md:text-7xl font-semibold md:mt-24 text-6xl mb-8 md:mb-0 tracking-tight leading-none">
               Start a Project
             </h1>
             <button className="rounded-full px-5 md:text-normal text-xl py-2 border-[1px] border-zinc-300 md:mt-5">
