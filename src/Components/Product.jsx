@@ -8,7 +8,7 @@ function Product({ val, mover, count }) {
     <div 
       className={`lg:w-full lg:py-10 lg:h-[21rem] h-fit lg:bg-zinc-900 mt-2 lg:mt-0 bg-zinc-700 ease-in duration-300 lg:px-0 px-1 py-3 rounded-lg lg:rounded-none`}
       style={{
-        backgroundImage: isHovered ? `lg:url(${val.bgImg})` : "none",
+        backgroundImage: isHovered ? `url(${val.bgImg})` : "none",
         backgroundSize: "contain",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
